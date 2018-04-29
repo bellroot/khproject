@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+   <script>
+      var day=prompt("비교할 날짜를 입력하세요.","2018-04-05");
+      var day1=day.split("-");
+      
+      var today=new Date();
+      document.write(day1[0]+"<br>");
+      document.write(day1[1]+"<br>");
+      document.write(day1[2]+"<br>");
+      var input=new Date(day1[0],day1[1]-1,day1[2]);
+   //   document.write(input);
+      var todaytime=today.getTime();
+      var inputtime=input.getTime();
+      var dis;
+     
+      
+      document.write(today.getDate()+"<br>");
+   
+      if(todaytime>=inputtime){
+         dis=todaytime-inputtime;
+         alert("날짜 간격은 "+Math.floor(dis/1000/60/60/24)+"일 입니다.");
+      }
+      else{
+         dis=inputtime-todaytime;
+         alert("날짜 간격은 "+Math.ceil(dis/1000/60/60/24)+"일 입니다.");
+      }
+         
+      
+      
+   
+   
+   
+   </script>
+</body>
+</html>

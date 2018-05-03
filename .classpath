@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="commitTest/src"/>
+	<classpathentry kind="src" path="JAVA_0305/src"/>
+	<classpathentry kind="src" path="JspProject_4/src"/>
+	<classpathentry kind="lib" path="JspProject_4/WebContent/WEB-INF/lib/cos.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="output" path="JspProject_4/build/classes"/>
+</classpath>
